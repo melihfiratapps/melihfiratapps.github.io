@@ -1,4 +1,11 @@
 User-Agent: *
 Allow: /
+Disallow: /admin
+Disallow: /api
 
+User-Agent: Googlebot
+Allow: /
+Disallow: /admin
+
+Host: https://melihfiratapps.github.io
 Sitemap: https://melihfiratapps.github.io/sitemap.xml
